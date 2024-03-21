@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F150B5302BAC3A81001EAEF6 /* PassResetAwsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150B52F2BAC3A81001EAEF6 /* PassResetAwsApp.swift */; };
+		F150B5342BAC3A81001EAEF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F150B5332BAC3A81001EAEF6 /* Assets.xcassets */; };
+		F150B5372BAC3A81001EAEF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F150B5362BAC3A81001EAEF6 /* Preview Assets.xcassets */; };
+		F150B53E2BAC3AD9001EAEF6 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = F150B53D2BAC3AD9001EAEF6 /* amplifyconfiguration.json */; };
+		F150B5412BAC44D1001EAEF6 /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = F150B5402BAC44D1001EAEF6 /* AWSAPIPlugin */; };
+		F150B5432BAC44D1001EAEF6 /* AWSCloudWatchLoggingPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = F150B5422BAC44D1001EAEF6 /* AWSCloudWatchLoggingPlugin */; };
+		F150B5452BAC44D1001EAEF6 /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = F150B5442BAC44D1001EAEF6 /* AWSCognitoAuthPlugin */; };
+		F150B5472BAC44D1001EAEF6 /* AWSDataStorePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = F150B5462BAC44D1001EAEF6 /* AWSDataStorePlugin */; };
+		F150B5492BAC44D1001EAEF6 /* AWSLocationGeoPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = F150B5482BAC44D1001EAEF6 /* AWSLocationGeoPlugin */; };
+		F150B54D2BAC5080001EAEF6 /* AuthScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150B54C2BAC5080001EAEF6 /* AuthScreenView.swift */; };
+		F150B54F2BAC5088001EAEF6 /* AuthScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150B54E2BAC5088001EAEF6 /* AuthScreenViewModel.swift */; };
+		F150B5542BAC509F001EAEF6 /* ResetPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150B5532BAC509F001EAEF6 /* ResetPassView.swift */; };
+		F150B5562BAC50A7001EAEF6 /* ResetPassViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150B5552BAC50A7001EAEF6 /* ResetPassViewModel.swift */; };
+		F150B55B2BAC50C5001EAEF6 /* NewPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150B55A2BAC50C5001EAEF6 /* NewPassView.swift */; };
+		F150B55D2BAC50CC001EAEF6 /* NewPassViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150B55C2BAC50CC001EAEF6 /* NewPassViewModel.swift */; };
+		F150B5622BAC50E8001EAEF6 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150B5612BAC50E8001EAEF6 /* SuccessView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F150B52C2BAC3A81001EAEF6 /* PassResetAws.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassResetAws.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F150B52F2BAC3A81001EAEF6 /* PassResetAwsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassResetAwsApp.swift; sourceTree = "<group>"; };
+		F150B5332BAC3A81001EAEF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F150B5362BAC3A81001EAEF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F150B53D2BAC3AD9001EAEF6 /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		F150B54C2BAC5080001EAEF6 /* AuthScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthScreenView.swift; sourceTree = "<group>"; };
+		F150B54E2BAC5088001EAEF6 /* AuthScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthScreenViewModel.swift; sourceTree = "<group>"; };
+		F150B5532BAC509F001EAEF6 /* ResetPassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPassView.swift; sourceTree = "<group>"; };
+		F150B5552BAC50A7001EAEF6 /* ResetPassViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPassViewModel.swift; sourceTree = "<group>"; };
+		F150B55A2BAC50C5001EAEF6 /* NewPassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPassView.swift; sourceTree = "<group>"; };
+		F150B55C2BAC50CC001EAEF6 /* NewPassViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPassViewModel.swift; sourceTree = "<group>"; };
+		F150B5612BAC50E8001EAEF6 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F150B5292BAC3A81001EAEF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F150B5412BAC44D1001EAEF6 /* AWSAPIPlugin in Frameworks */,
+				F150B5492BAC44D1001EAEF6 /* AWSLocationGeoPlugin in Frameworks */,
+				F150B5432BAC44D1001EAEF6 /* AWSCloudWatchLoggingPlugin in Frameworks */,
+				F150B5452BAC44D1001EAEF6 /* AWSCognitoAuthPlugin in Frameworks */,
+				F150B5472BAC44D1001EAEF6 /* AWSDataStorePlugin in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F150B5232BAC3A80001EAEF6 = {
+			isa = PBXGroup;
+			children = (
+				F150B52E2BAC3A81001EAEF6 /* PassResetAws */,
+				F150B52D2BAC3A81001EAEF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F150B52D2BAC3A81001EAEF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F150B52C2BAC3A81001EAEF6 /* PassResetAws.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F150B52E2BAC3A81001EAEF6 /* PassResetAws */ = {
+			isa = PBXGroup;
+			children = (
+				F161983E2BAC86E4007868F4 /* App */,
+				F161983D2BAC86CA007868F4 /* Modules */,
+				F150B5332BAC3A81001EAEF6 /* Assets.xcassets */,
+				F150B5352BAC3A81001EAEF6 /* Preview Content */,
+			);
+			path = PassResetAws;
+			sourceTree = "<group>";
+		};
+		F150B5352BAC3A81001EAEF6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F150B5362BAC3A81001EAEF6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F150B54B2BAC5071001EAEF6 /* AuthScreenModule */ = {
+			isa = PBXGroup;
+			children = (
+				F150B54C2BAC5080001EAEF6 /* AuthScreenView.swift */,
+				F150B54E2BAC5088001EAEF6 /* AuthScreenViewModel.swift */,
+			);
+			path = AuthScreenModule;
+			sourceTree = "<group>";
+		};
+		F150B5522BAC5092001EAEF6 /* ResetPassModule */ = {
+			isa = PBXGroup;
+			children = (
+				F150B5532BAC509F001EAEF6 /* ResetPassView.swift */,
+				F150B5552BAC50A7001EAEF6 /* ResetPassViewModel.swift */,
+			);
+			path = ResetPassModule;
+			sourceTree = "<group>";
+		};
+		F150B5592BAC50BA001EAEF6 /* NewPassModule */ = {
+			isa = PBXGroup;
+			children = (
+				F150B55A2BAC50C5001EAEF6 /* NewPassView.swift */,
+				F150B55C2BAC50CC001EAEF6 /* NewPassViewModel.swift */,
+			);
+			path = NewPassModule;
+			sourceTree = "<group>";
+		};
+		F150B5602BAC50DA001EAEF6 /* SuccessModule */ = {
+			isa = PBXGroup;
+			children = (
+				F150B5612BAC50E8001EAEF6 /* SuccessView.swift */,
+			);
+			path = SuccessModule;
+			sourceTree = "<group>";
+		};
+		F161983D2BAC86CA007868F4 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F150B54B2BAC5071001EAEF6 /* AuthScreenModule */,
+				F150B5592BAC50BA001EAEF6 /* NewPassModule */,
+				F150B5522BAC5092001EAEF6 /* ResetPassModule */,
+				F150B5602BAC50DA001EAEF6 /* SuccessModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F161983E2BAC86E4007868F4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F150B52F2BAC3A81001EAEF6 /* PassResetAwsApp.swift */,
+				F150B53D2BAC3AD9001EAEF6 /* amplifyconfiguration.json */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F150B52B2BAC3A81001EAEF6 /* PassResetAws */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F150B53A2BAC3A81001EAEF6 /* Build configuration list for PBXNativeTarget "PassResetAws" */;
+			buildPhases = (
+				F150B5282BAC3A81001EAEF6 /* Sources */,
+				F150B5292BAC3A81001EAEF6 /* Frameworks */,
+				F150B52A2BAC3A81001EAEF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PassResetAws;
+			packageProductDependencies = (
+				F150B5402BAC44D1001EAEF6 /* AWSAPIPlugin */,
+				F150B5422BAC44D1001EAEF6 /* AWSCloudWatchLoggingPlugin */,
+				F150B5442BAC44D1001EAEF6 /* AWSCognitoAuthPlugin */,
+				F150B5462BAC44D1001EAEF6 /* AWSDataStorePlugin */,
+				F150B5482BAC44D1001EAEF6 /* AWSLocationGeoPlugin */,
+			);
+			productName = PassResetAws;
+			productReference = F150B52C2BAC3A81001EAEF6 /* PassResetAws.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F150B5242BAC3A80001EAEF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F150B52B2BAC3A81001EAEF6 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = F150B5272BAC3A80001EAEF6 /* Build configuration list for PBXProject "PassResetAws" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F150B5232BAC3A80001EAEF6;
+			packageReferences = (
+				F150B53F2BAC44D1001EAEF6 /* XCRemoteSwiftPackageReference "amplify-ios" */,
+			);
+			productRefGroup = F150B52D2BAC3A81001EAEF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F150B52B2BAC3A81001EAEF6 /* PassResetAws */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F150B52A2BAC3A81001EAEF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F150B5372BAC3A81001EAEF6 /* Preview Assets.xcassets in Resources */,
+				F150B53E2BAC3AD9001EAEF6 /* amplifyconfiguration.json in Resources */,
+				F150B5342BAC3A81001EAEF6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F150B5282BAC3A81001EAEF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F150B55D2BAC50CC001EAEF6 /* NewPassViewModel.swift in Sources */,
+				F150B5542BAC509F001EAEF6 /* ResetPassView.swift in Sources */,
+				F150B5622BAC50E8001EAEF6 /* SuccessView.swift in Sources */,
+				F150B54D2BAC5080001EAEF6 /* AuthScreenView.swift in Sources */,
+				F150B5562BAC50A7001EAEF6 /* ResetPassViewModel.swift in Sources */,
+				F150B54F2BAC5088001EAEF6 /* AuthScreenViewModel.swift in Sources */,
+				F150B5302BAC3A81001EAEF6 /* PassResetAwsApp.swift in Sources */,
+				F150B55B2BAC50C5001EAEF6 /* NewPassView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F150B5382BAC3A81001EAEF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F150B5392BAC3A81001EAEF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F150B53B2BAC3A81001EAEF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PassResetAws/Preview Content\"";
+				DEVELOPMENT_TEAM = 3G5H7F7828;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antonklimenko.PassResetAws;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F150B53C2BAC3A81001EAEF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PassResetAws/Preview Content\"";
+				DEVELOPMENT_TEAM = 3G5H7F7828;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antonklimenko.PassResetAws;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F150B5272BAC3A80001EAEF6 /* Build configuration list for PBXProject "PassResetAws" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F150B5382BAC3A81001EAEF6 /* Debug */,
+				F150B5392BAC3A81001EAEF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F150B53A2BAC3A81001EAEF6 /* Build configuration list for PBXNativeTarget "PassResetAws" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F150B53B2BAC3A81001EAEF6 /* Debug */,
+				F150B53C2BAC3A81001EAEF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F150B53F2BAC44D1001EAEF6 /* XCRemoteSwiftPackageReference "amplify-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.28.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F150B5402BAC44D1001EAEF6 /* AWSAPIPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F150B53F2BAC44D1001EAEF6 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSAPIPlugin;
+		};
+		F150B5422BAC44D1001EAEF6 /* AWSCloudWatchLoggingPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F150B53F2BAC44D1001EAEF6 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSCloudWatchLoggingPlugin;
+		};
+		F150B5442BAC44D1001EAEF6 /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F150B53F2BAC44D1001EAEF6 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+		F150B5462BAC44D1001EAEF6 /* AWSDataStorePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F150B53F2BAC44D1001EAEF6 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSDataStorePlugin;
+		};
+		F150B5482BAC44D1001EAEF6 /* AWSLocationGeoPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F150B53F2BAC44D1001EAEF6 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSLocationGeoPlugin;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F150B5242BAC3A80001EAEF6 /* Project object */;
+}
